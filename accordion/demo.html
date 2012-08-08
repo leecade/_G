@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<!-- <html lang="en"> -->
+<head>
+<meta charset="utf-8"/>
+<!--
+<meta name="keywords" content="key1, key2">
+<meta name="description" content="des...">
+-->
+<!-- <base target="_blank"></base> -->
+<title>title</title>
+<!-- <link rel="stylesheet" href="" /> -->
+<style>
+body,p,b,dl,dd,table,td,th,input,textarea,xmp,pre,img,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
+img,iframe{ border:none;}
+ol,ul,li{ list-style:none;}
+img,input,label,button{ vertical-align:middle;}
+table{ border-collapse:collapse; border-spacing:0; width:100%;}
+address,caption,cite,code,dfn,em,strong,th,var,b,i{ font-style:normal; font-weight:normal;}
+button,input,select,textarea{ font-size:100%;}
+body{ font:12px/1.5 arial; background: #fff;
+    _zoom: expression(function(el){
+        document.execCommand('BackgroundImageCache', false, true);
+        el.style.zoom = "1";
+    }(this));
+}
+.cf{ zoom: 1;}
+.cf:before, .cf:after{ content: ""; display: table;}
+.cf:after { clear: both;}
+
+
+
+
+
+.list{
+    
+    width: 500px; margin: 10em auto; border: 1px solid #C6D6E8; line-height: 32px; background: url(img/list_bg.png);
+}
+
+.list_wrap{ word-spacing: -.35em; letter-spacing:-.25em; position: relative;
+    
+    padding: 0 1em;
+}
+
+.list-inner{ position: absolute; height: 100%; width: 100%;
+    
+    background: #edf4fe; top: 32px;
+}
+.list li{ overflow: hidden; position: relative;
+    
+    height: 32px;
+    /*transition: height .2s ease-in;
+    -webkit-transition: height .2s ease-in;
+    -moz-transition: height .2s ease-in;*/
+}
+
+
+/*inner-block*/
+.list a, .list span, .list-t, .list-more{
+    white-space: nowrap; display: -moz-inline-box; display: inline-block; *display: inline; zoom: 1; word-spacing: normal; letter-spacing:normal;
+    
+    /*background: #eee;*/
+}
+.list span{ overflow: hidden;
+
+    width: 70px; line-height: 21px; margin-right: 5px;
+}
+
+.list a{ text-decoration: none; width: 100%; color: #333;}
+.list a:hover{ background: #edf4fe;}
+.list-t{ color: #1c65aa; font-weight: bold; width: 70px; _margin-right: 2px;}
+span.list-btn{ float: right; background: url(img/list_btn.png) -19px -3px; cursor: pointer; width: 18px; height: 32px;}
+.list-more{ float: right; color: #1c65aa; font-weight: bold; *margin-top: -32px;}
+.list-cur .list-btn{ background-position: 0px -3px;}
+.list-last{ visibility: hidden;}
+
+
+
+.demo2-list{ height: 21px; line-height: 21px; overflow: hidden; border: 1px solid #aaa; width: 300px; margin: 0 auto;}
+.demo2-list_btn{ cursor: pointer;}
+
+.demo3-list{ line-height: 21px; border: 1px solid #aaa; width: 300px; margin: 1em auto;}
+.demo3-list_wrap{ height: 21px; overflow: hidden; cursor: default;}
+.demo3-list_t{ background: #999; color: #fff; cursor: default; padding-left: .5em;}
+.demo3-list li{ padding-left: 1em;}
+</style>
+</head>
+<body>
+<ul class="list" id="foldList">
+    <li><div class="list-inner"></div><div class="list_wrap"><span class="list-btn"></span><span class="list-t">title</span>
+        
+        
+        <span><a href="http://www.baomoi.com/">1Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">2Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">3Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                     <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    
+                                    
+                                    
+                                    <span class="list-last"><a href="#">&nbsp;</a></span><span class="list-more"><a href="http://www.baomoi.com/">more ››</a></span>
+                                
+                                
+                                </div></li>
+                                    
+                                    
+                                    
+    <li><div class="list-inner"></div><div class="list_wrap"><span class="list-btn"></span><span class="list-t">title</span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">111Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                
+                                
+                                    <span class="list-more"><a href="http://www.baomoi.com/">more ››</a></span></div></li>
+   <li><div class="list-inner"></div><div class="list_wrap"><span class="list-btn"></span><span class="list-t">title</span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                
+                                
+                                    <span class="list-more"><a href="http://www.baomoi.com/">more ››</a></span></div></li>
+                                    
+                                    
+                                    
+                                    <li><div class="list-inner"></div><div class="list_wrap"><span class="list-btn"></span><span class="list-t">title</span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">111Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    
+                                
+                                
+                                    <span class="list-more"><a href="http://www.baomoi.com/">more ››</a></span></div></li>
+                                    
+                                    
+                                    <li><div class="list-inner"></div><div class="list_wrap"><span class="list-btn"></span><span class="list-t">title</span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                    <span><a href="http://www.baomoi.com/">Báo mới</a></span><span><a href="http://www.baomoi.com/">Báo mới</a></span>
+                                
+                                
+                                    <span class="list-more"><a href="http://www.baomoi.com/">more ››</a></span></div></li>
+</ul>
+
+
+
+<div id="demo2" class="demo2-list">
+    
+    <ul><li class="demo2-list_btn">select:</li>
+    <li>list2</li>
+    <li>list3</li>
+    <li>list4</li>
+    <li>list5</li></ul>
+</div>
+
+
+<div id="demo3" class="demo3-list">
+    <div class="demo3-list_wrap">
+        <ul>
+            <div class="demo3-list_t">grounp1</div>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+        </ul>
+    </div>
+    <div class="demo3-list_wrap">
+        <ul>
+            <div class="demo3-list_t">grounp1</div>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+        </ul>
+    </div>
+    <div class="demo3-list_wrap">
+        <ul>
+            <div class="demo3-list_t">grounp1</div>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+        </ul>
+    </div>
+    <div class="demo3-list_wrap">
+        <ul>
+            <div class="demo3-list_t">grounp1</div>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="js/base.js"></script>
+<script src="js/accordion.js"></script>
+<script>
+
+G.fx.supportTran = function() {
+    var needle = document.createElement("div"),
+        style = needle.style,
+        prefix = "Moz|Ms|Webkit|O|".split("|"),
+        sufix = "Transition",
+        li;
+    needle = null;
+    while(li = prefix.shift()) if(style[li + sufix] === "") return li + sufix;
+    return !1;
+};
+
+G("#foldList").accordion();
+// G.accordion(G("#foldList"), {});
+
+G("#demo2").accordion({
+    classNameBtn: "demo2-list_btn",
+    speed: 100
+});
+
+G("#demo3").accordion({
+    classNameBtn: "demo3-list_t",
+    speed: 100
+});
+</script>
+</html>
